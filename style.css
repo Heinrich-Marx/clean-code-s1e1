@@ -10,12 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.header-wrapper
-figure
-img {
+.eisenhower-img{
   width: 100%;
 }
-.header-wrapper
+
 .more-inf {
   font-family: fantasy, cursive;
 }
