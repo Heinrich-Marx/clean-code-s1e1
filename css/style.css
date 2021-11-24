@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.eisenhower-img{
+.eisenhower-img {
   width: 100%;
 }
 
@@ -23,23 +23,28 @@ body {
     text-align: center;
   }
 }
+
 .main-wrap-notes {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
+
 h3 {
   list-style: none;
 }
@@ -55,9 +60,11 @@ h3 {
   cursor: pointer;
   
 }
+
 .general-btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title-new-task {
   color: #333;
@@ -69,6 +76,7 @@ h3 {
   display: block;
   margin: 0 0 20px;
 }
+
 .input-task {
   margin: 0;
   font-size: 18px;
@@ -81,11 +89,10 @@ h3 {
   font-family: lato, sans-serif;
   color: #888;
 }
+
 .input-task:focus {
   color: #333;
 }
-
-
 
 /* Task list */
 .general-li {
@@ -96,6 +103,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
+
 .general-li > * {
   vertical-align: middle;
 }
@@ -103,12 +111,14 @@ h3 {
 .checkbox-li {
   margin: 0 10px;
 }
+
 .label-li {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .input-task {
   width: 226px;
 }
@@ -123,6 +133,7 @@ img {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-note 
 img:hover {
   transform: rotateZ(0);

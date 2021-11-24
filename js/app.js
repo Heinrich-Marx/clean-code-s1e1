@@ -42,7 +42,8 @@ var createNewTaskElement = function (taskString) {
   editButton.classList.add("general-btn");
   deleteButton.className = "delete-note";
   deleteButton.classList.add("general-btn");
-  deleteButtonImg.src = "./remove.svg";
+  deleteButtonImg.src = "images/remove.svg";
+  deleteButtonImg.alt = "button delete task";
   deleteButton.appendChild(deleteButtonImg);
 
   //and appending.
@@ -160,9 +161,9 @@ for (var i = 0; i < incompleteTaskHolder.children.length; i++) {
 }
 
 //cycle over completedTasksHolder ul list items
-for (var i = 0; i < completedTasksHolder.children.length; i++) {
+for (var j = 0; j < completedTasksHolder.children.length; j++) {
   //bind events to list items chldren(tasksIncompleted)
-  bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
+  bindTaskEvents(completedTasksHolder.children[j], taskIncomplete);
 }
 
 // Issues with usability don't get seen until they are in front of a human tester.
