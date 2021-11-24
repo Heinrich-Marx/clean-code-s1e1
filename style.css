@@ -11,6 +11,7 @@ body {
   text-align: right;
 }
 .header-wrapper
+figure
 img {
   width: 100%;
 }
@@ -20,8 +21,9 @@ img {
 }
 
 @media (max-width:768px) {
-  .header-wrapper { text-align: center;
-}
+  .header-wrapper { 
+    text-align: center;
+  }
 }
 .main-wrap-notes {
   display: block;
@@ -38,7 +40,7 @@ img {
 }
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 h3 {
   list-style: none;
@@ -47,7 +49,7 @@ h3 {
 .general-btn {
   outline: none;
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -85,9 +87,7 @@ h3 {
   color: #333;
 }
 
-#new-task {
-  width: 318px;
-}
+
 
 /* Task list */
 .general-li {
@@ -114,6 +114,11 @@ h3 {
 .input-task {
   width: 226px;
 }
+
+.input-new-task {
+    width: 318px;
+}
+
 .delete-note
 img {
   height: 2em;
