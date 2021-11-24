@@ -126,7 +126,9 @@ img:hover {
 }
 
 /* Completed */
-.label-complete {
+.done-tasks
+.general-li
+.label-li {
   text-decoration: line-through;
   color: #888;
 }
