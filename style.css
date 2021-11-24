@@ -114,14 +114,12 @@ h3 {
 .input-task {
   width: 226px;
 }
-.general-btn
-.delete-note 
+.delete-note
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.general-btn
 .delete-note 
 img:hover {
   transform: rotateZ(0);
