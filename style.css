@@ -35,15 +35,15 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 h3 {
-  list-style:none;
+  list-style: none;
 }
 
 .general-btn {
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -129,14 +129,14 @@ h3 {
 
 /* Edit Task */
 .input-none {
-  display:none
+  display: none
 }
 
 .input-edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label-li {
-  display:none;
+  display: none;
 }
