@@ -10,11 +10,11 @@ body {
   display: block;
   text-align: right;
 }
-.eisenhower-img {
+.header-wrapper__eisenhower-img {
   width: 100%;
 }
 
-.more-inf {
+.header-wrapper__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -36,7 +36,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section-add-notes__task-row-wrapper {
   display: flex;
 }
 
@@ -49,6 +49,7 @@ h3 {
   list-style: none;
 }
 
+.general-li__general-btn
 .general-btn {
   outline: none;
   background: none;
@@ -61,12 +62,13 @@ h3 {
   
 }
 
+.general-li__general-btn:hover
 .general-btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.title-new-task {
+.section-add-notes__title-new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -77,7 +79,7 @@ h3 {
   margin: 0 0 20px;
 }
 
-.input-task {
+.general-li__input-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -90,7 +92,7 @@ h3 {
   color: #888;
 }
 
-.input-task:focus {
+.general-li__input-task:focus {
   color: #333;
 }
 
@@ -112,14 +114,14 @@ h3 {
   margin: 0 10px;
 }
 
-.label-li {
+.general-li__label-li {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.input-task {
+.general-li__input-task {
   width: 226px;
 }
 
@@ -127,14 +129,14 @@ h3 {
     width: 318px;
 }
 
-.delete-note
+.general-li__delete-note
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-note 
+.general-li__delete-note 
 img:hover {
   transform: rotateZ(0);
 }
@@ -142,22 +144,22 @@ img:hover {
 /* Completed */
 .done-tasks
 .general-li
-.label-li {
+.general-li__label-li {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.input-none {
+.general-li_input-none {
   display: none;
 }
 
-.input-edit {
+.general-li__input-edit {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode 
-.label-li {
+.not-done-tasks__edit-mode
+.general-li__label-li {
   display: none;
 }

@@ -11,50 +11,50 @@
   </head>
   <body>
     <header class="header-wrapper">
-      <figure ><img class="eisenhower-img" src="images/eisenhower-matrix.jpg" alt="Image eisenhower matrix"></figure>
-      <a  class="more-inf" 
+      <figure ><img class="header-wrapper__eisenhower-img" src="images/eisenhower-matrix.jpg" alt="Image eisenhower matrix"></figure>
+      <a  class="header-wrapper__more-inf" 
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main-wrap-notes">
-      <section id="title-add-notes">
-        <label class="title-new-task" for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+      <section class="section-add-notes" id="title-add-notes">
+        <label class="section-add-notes__title-new-task" for="new-task">Add Item</label>
+        <div class="section-add-notes__task-row-wrapper">
           <input id="new-task"
-                 class="task input-task input-new-task" 
+                 class="task input-new-task" 
                  type="text">
           <button class="general-btn">Add</button>
         </div>
       </section>
       <section class="section-todo">
-        <h3>Todo</h3>
+        <h3 class="section-todo__title">Todo</h3>
         <ul class="not-done-tasks" id="incomplete-tasks">
-          <li class="general-li">
-            <input class="checkbox-li" type="checkbox">
-            <label class="task label-li">Pay Bills</label>
-            <input type="text" class="task input-task input-none">
-            <button class="general-btn edit-note">Edit</button>
-            <button class="delete-note general-btn"><img src="images/remove.svg" alt="button delete task"></button>
+          <li class="not-done-tasks__li general-li">
+            <input class="general-li__checkbox checkbox-li" type="checkbox">
+            <label class="general-li__label-li task">Pay Bills</label>
+            <input type="text" class="task general-li__input-task general-li_input-none">
+            <button class="general-li__general-btn general-li__edit-note">Edit</button>
+            <button class="general-li__delete-note general-li__general-btn"><img src="images/remove.svg" alt="button delete task"></button>
           </li>
-          <li class="edit-mode general-li">
-            <input class="checkbox-li" type="checkbox">
-            <label class="task label-li">Go Shopping</label>
+          <li class="not-done-tasks__edit-mode general-li">
+            <input class="general-li__checkbox checkbox-li" type="checkbox">
+            <label class="general-li__label-li task">Go Shopping</label>
             <input type="text" 
                    value="go-shopping" 
-                   class="task input-task input-none input-edit">
-            <button class="edit-note general-btn">Save</button>
-            <button class="delete-note general-btn"><img src="images/remove.svg" alt="button delete task"></button>
+                   class="task general-li__input-task general-li_input-none general-li__input-edit">
+            <button class="general-li__general-btn general-li__edit-note">Save</button>
+            <button class="general-li__delete-note general-li__general-btn"><img src="images/remove.svg" alt="button delete task"></button>
           </li>
         </ul>
       </section>
       <section class="section-complete">
-        <h3>Completed</h3>
+        <h3 class="section-complete__title">Completed</h3>
         <ul class="done-tasks" id="completed-tasks">
-          <li class="general-li">
-            <input class="checkbox-li" type="checkbox" checked>
-            <label class="task label-li">See the Doctor</label>
-            <input type="text" class="task input-task input-none">
-            <button class="general-btn edit-note">Edit</button>
-            <button class="delete-note general-btn"><img src="images/remove.svg" alt="button delete task"></button>
+          <li class="done-tasks__li general-li">
+            <input class="general-li__checkbox checkbox-li" type="checkbox" checked>
+            <label class="general-li__label-li task">See the Doctor</label>
+            <input type="text" class="task general-li__input-task general-li_input-none">
+            <button class="general-li__general-btn general-li__edit-note">Edit</button>
+            <button class="general-li__delete-note general-li__general-btn"><img src="images/remove.svg" alt="button delete task"></button>
           </li>
         </ul>
       </section>
