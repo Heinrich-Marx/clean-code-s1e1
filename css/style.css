@@ -1,0 +1,165 @@
+/* Basic Style */
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: lato, sans-serif;
+}
+.header-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+.header-wrapper__eisenhower-img {
+  width: 100%;
+}
+
+.header-wrapper__more-inf {
+  font-family: fantasy, cursive;
+}
+
+@media (max-width:768px) {
+  .header-wrapper { 
+    text-align: center;
+  }
+}
+
+.main-wrap-notes {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
+}
+
+.task {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.section-add-notes__task-row-wrapper {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  list-style: none;
+}
+
+.general-li__general-btn,
+.general-btn {
+  outline: none;
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: lato, sans-serif;
+  cursor: pointer;
+  
+}
+
+.general-li__general-btn:hover,
+.general-btn:hover {
+  color: #3a3a3a;
+}
+
+/* Heading */
+.section-add-notes__title-new-task {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.general-li__input-task {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: lato, sans-serif;
+  color: #888;
+}
+
+.general-li__input-task:focus {
+  color: #333;
+}
+
+/* Task list */
+.general-li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.general-li > * {
+  vertical-align: middle;
+}
+
+.checkbox-li {
+  margin: 0 10px;
+}
+
+.general-li__label-li {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.general-li__input-task {
+  width: 226px;
+}
+
+.input-new-task {
+    width: 318px;
+}
+
+.general-li__delete-note
+img {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.general-li__delete-note 
+img:hover {
+  transform: rotateZ(0);
+}
+
+/* Completed */
+.done-tasks
+.general-li
+.general-li__label-li {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Edit Task */
+.general-li_input-none {
+  display: none;
+}
+
+.general-li__input-edit {
+  display: inline-block;
+  width: 224px;
+}
+
+.not-done-tasks__edit-mode
+.general-li__label-li {
+  display: none;
+}
